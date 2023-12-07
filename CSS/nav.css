@@ -1,0 +1,67 @@
+nav {
+
+    background: linear-gradient(30deg, #011526,#3285A6);
+    display: flex;
+    align-items: center;
+    /* height: 20vh; */
+    
+
+}
+
+
+#logo {
+
+    width: 5.62rem;
+    height: 5.62rem;
+    margin-left: 2%;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid #0a0a0a;
+
+}
+
+
+#logo img {
+
+    width: inherit;
+    height: 100%;
+    
+}
+
+    nav ul {
+
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+            
+    }
+
+    nav ul li {
+
+        
+        padding: 1%;
+                
+    }
+
+    
+    nav ul li a {
+
+        color: white;
+        text-shadow: 2px 2px rgb(76, 19, 233);
+        font-size: 1.7rem;
+        font-weight: 400;
+        font-family: 'Yellowtail', cursive;
+        
+    }
+    
+
+    nav ul li a:hover {
+
+        color: rgb(35, 174, 216);
+        border-bottom: 3px solid #02020a;
+        border-radius: 20%;
+
+    }
+
+
+    
